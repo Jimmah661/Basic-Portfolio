@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+}
+
+footer {
+    background: #666666;
+    height: 50px;
+    border-top: 8px solid #4aaaa5;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+section {
+    width: 960px;
+}
