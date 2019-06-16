@@ -29,6 +29,11 @@ h2 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 nav {
     float: right;
 }
@@ -50,6 +55,7 @@ section {
     background-color: #ffffff;
     border: 1px solid #dddddd;
     float: left;
+    margin-bottom: 60px;
 }
 
 section p {
@@ -65,7 +71,8 @@ section p {
 
 #container {
     width: 960px;
-    margin: 0 auto;
+    margin: 020px auto 0;
+
 }
 
 footer {
@@ -77,4 +84,33 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+/*Portfolio specific CSS*/
+
+.tile {
+    width: 280px;
+    height: 260px;
+    margin: 20px;
+    background-color: teal;
+    float: left;
+    position: relative
+}
+
+.banner {
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    background-color: #4aaaa5;
+    bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.bannerText {
+    margin: 0 auto;
+}
+
+form {
+    margin: 20px;
 }
